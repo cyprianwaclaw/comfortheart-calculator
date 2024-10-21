@@ -5,7 +5,7 @@ h2{
     font-family: "Rufina", serif;
     font-weight: 700;
     font-style: normal;
-    font-size: 38px;
+    font-size: 38px !important;
 }
 
 label {
@@ -18,9 +18,9 @@ label {
 input {
     border: 1px solid #CECECE;
     border-radius: 4px;
-    padding: 9px 12px;
+    padding: 9px 12px !important;
     color: #828282;
-    font-size: 16px;
+    font-size: 16px !important;
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-style: normal;
