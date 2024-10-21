@@ -1,5 +1,5 @@
 <template>
-  <div class="ml-20">
+  <div>
     <h2>Calculate which product you need</h2>
     <div class="red-retangle" />
     <div class="mt-[64px] flex flex-col">
