@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "skipLibCheck": true,   
+    "types": ["vue"],       
+    "noImplicitAny": false,
+    "strict": false,         
+    "noEmitOnError": false  
+  },
+   "include": [
+    "env.d.ts",
+    ".nuxt/nuxt.d.ts",
+    "**/*"
+  ]
+
+}
