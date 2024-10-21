@@ -1,13 +1,13 @@
 <template>
     <div class="flex flex-col">
         <label>{{ label }}</label>
-        <input v-model="internalValue" :placeholder="placeholder" @blur="handleBlur" class="w-[100px]" type="number" />
+        <input v-model="internalValue" :placeholder="placeholder" @blur="handleBlur" class="w-[70px]" type="number" />
     </div>
 </template>
 
 <script setup lang="ts">
 const props = defineProps<{
-    modelValue: string;
+    modelValue: any;
     label: string;
     placeholder: string;
 }>()

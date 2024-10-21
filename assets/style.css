@@ -8,6 +8,13 @@ h2{
     font-size: 38px !important;
 }
 
+h3{
+    font-family: "Rufina", serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 30px !important;
+}
+
 label {
     font-family: "Roboto", sans-serif;
     font-weight: 500;
@@ -45,6 +52,10 @@ input:focus {
 input:focus::placeholder {
     color: #d6d6d6;
     font-weight: 400;
+}
+
+.roboto{    
+    font-family: "Roboto", sans-serif;
 }
 
 .red-retangle{
